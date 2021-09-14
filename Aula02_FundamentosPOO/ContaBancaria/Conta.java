@@ -1,9 +1,9 @@
 package Aula02_FundamentosPOO.ContaBancaria;
 
 public class Conta {
-    String numero;
-    String agencia;
-    Double saldo;
+    public String numero;
+    public String agencia;
+    private Double saldo;
 
     public Conta(String numero, String agencia, Double saldo) {
         this.numero = numero;
@@ -21,6 +21,10 @@ public class Conta {
 
     public void creditarSaldo(Double valor) {
         saldo += valor;
+    }
+
+    protected Double getSaldo(){
+        return saldo;
     }
 }
 

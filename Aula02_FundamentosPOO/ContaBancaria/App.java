@@ -5,14 +5,14 @@ public class App {
         Conta contaBBDoLucas = new Conta("456456-7", "0001", 100.0);
 
         // Saque
-        System.out.println("Saldo antes do saque: " + contaDoLucas.saldo);
+        System.out.println("Saldo antes do saque: " + contaDoLucas.getSaldo());
         contaDoLucas.debitarSaldo(1500.0);
-        System.out.println("Saldo depois do saque: " + contaDoLucas.saldo);
+        System.out.println("Saldo depois do saque: " + contaDoLucas.getSaldo());
 
         System.out.println("------------------");
 
-        System.out.println("Saldo antes do saque: " + contaBBDoLucas.saldo);
+        System.out.println("Saldo antes do saque: " + contaBBDoLucas.getSaldo());
         contaBBDoLucas.debitarSaldo(1500.0);
-        System.out.println("Saldo depois do saque: " + contaBBDoLucas.saldo);
+        System.out.println("Saldo depois do saque: " + contaBBDoLucas.getSaldo());
     }
 }

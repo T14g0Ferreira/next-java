@@ -16,7 +16,6 @@ public class Contato {
         this.celular = celular;
     }
 
-
     public String getNome() {
         return this.nome;
     }

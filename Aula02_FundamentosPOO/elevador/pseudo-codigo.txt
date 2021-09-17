@@ -1,0 +1,30 @@
+Elevador
+
+	Caracteristicas
+
+		- capacidade
+		- sabe qual o andar do terreo
+		- sabe a quantidade de pessoas que está dentro dele
+		- sabe o total de andares
+		- sabe se porta está aberta
+		- sabe o andar atual
+		- esta em movimento?
+
+	Ações 
+
+		- inicializa(capacidade, andar do terreo, total de andares, andar atual)
+
+		- entrar(pessoas)
+			- só adicionar se ainda houver espaço
+
+		- sair(pessoas)
+			- se há essa quantidae de pessoas
+
+		- descer(andar)
+			- se o andar existe
+			- verificar se já no andar;
+		- subir(andar)
+			- se o andar existe
+			- verificar se já no andar;
+
+		- verificar cabe pessoas (pessoas)

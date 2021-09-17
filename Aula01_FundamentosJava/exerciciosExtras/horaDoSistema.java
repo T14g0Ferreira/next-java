@@ -1,4 +1,4 @@
-package aula01_FundamentosJava.exerciciosExtras;
+package Aula01_FundamentosJava.exerciciosExtras;
 
 import java.util.Date;
 

@@ -2,10 +2,10 @@ package Aula03_HerancaPolimorfismo.Cinema;
 
 import java.util.Objects;
 
-public class IngressoVip extends Ingresso {
+public class ingressoVip extends Ingresso {
     private Double valorAdicional;
 
-    public IngressoVip(Double valor, Double valorAdicional) {
+    public ingressoVip(Double valor, Double valorAdicional) {
         super(valor);
         this.valorAdicional = valorAdicional;
     }
@@ -19,10 +19,10 @@ public class IngressoVip extends Ingresso {
     public boolean equals(Object o) {
         if (o == this)
             return true;
-        if (!(o instanceof IngressoVip)) {
+        if (!(o instanceof ingressoVip)) {
             return false;
         }
-        IngressoVip ingressoVip = (IngressoVip) o;
+        ingressoVip ingressoVip = (ingressoVip) o;
         return super.equals(o) && Objects.equals(valorAdicional, ingressoVip.valorAdicional);
     }
 }

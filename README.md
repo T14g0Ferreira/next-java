@@ -15,6 +15,6 @@ Ementa do curso:
 
 Instrututores:
 
-    Daniel Arrais (Email: / )
-    Blenda Guedes (Email: / )
+    Daniel Arrais (Email: dac2@cesar.org.br/ )
+    Gérson Rodrigues (Email: gersonrs@live.com/ )
    
